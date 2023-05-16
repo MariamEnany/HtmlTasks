@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title> Form </title>
+    </head>
+    <body style="background-color:azure;" >
+
+
+        
+
+
+        <form method="post">
+
+            <table >
+                <thead>
+                </thead>
+                <tbody>
+                    <tr  >
+                        <td WIDTH="50%"> <label for="firstName">First Name</label> </td>
+                        <td  WIDTH="50%"> <input type="text" 
+                            name="firstName" 
+                            values="mohamed "
+                             placeholder="Enter first name"
+                             />
+                            </td>  
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="lastName">Last Name</label></td>
+                    <td WIDTH="50%"> <input type="text" 
+                        name="lastName" 
+                        values="mohamed "
+                         placeholder="Enter last name"
+                         /></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> <label for="email">Email</label></td>
+                    <td WIDTH="50%"><input type="email" 
+                        name="email" 
+                        id="email"
+                      placeholder="it should contain @"
+                 /></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> <label for="phone">Mobile:</label></td>
+                    <td WIDTH="50%"><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="gender">Gender:</label></td>
+                    <td WIDTH="50%">
+                         <input type="radio" name="gender" value="Male"/>
+                        <label for="Male">Male</label> 
+                        <input type="radio" name="gender" value="Female"/>
+                        <label for="Female">Female</label> </td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> <label for="birthday">Date of Birth:</label></td>
+                    <td WIDTH="50%"> <input type="date" id="birthday" name="birthday"></td>
+                   </tr>
+
+                   <tr>
+                    <td WIDTH="50%"> <label for="address"> Address:</label></td>
+                    <td WIDTH="50%">        <textarea
+                        id="address"
+                        minlength="2"
+                        maxlength="10"
+                        rows="3"
+                        col="20"
+                        required
+                     >
+                     </textarea>
+                    </td>
+                   </tr>
+
+                   <tr>
+                    <td WIDTH="50%"> <label for="city">City:</label></td>
+                    <td WIDTH="50%">  </br>
+                        <input type="city" 
+                               name="city" 
+                               id="city"
+                        /></td>
+                   </tr>
+
+                   <tr>
+                    <td WIDTH="50%"> <label for="areaPin">Area pin:</label></td>
+                    <td WIDTH="50%"> <input type="areaPin" 
+                        name="areaPin" 
+                        id="areaPin"
+                 /></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="state">state:</label></td>
+                    <td WIDTH="50%"><input type="state" 
+                        name="state" 
+                        id="state"
+                 /></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> <label for="qualifications">Qualifications:</label> </td>
+                    <td WIDTH="50%"><select id="qualifications" name="qualifications">
+                        <option selected disabled>choose Qualifications</option>
+                        <option value="hs">high school</option>
+                       <option value="bach">bachoelor</option>
+                       <option value="master">masters</option>
+                         </select></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="specialized">Specialized:</label></td>
+                    <td WIDTH="50%">  <input type="checkbox" name="checkbox" id="Computer Science" value="Computer Science"/>
+                        <label for="checkbox">Computer Science</label>
+                    </br>
+                        <input type="checkbox" name="checkbox" id="Information technology" value="Information technology"/>
+                        <label for="checkbox">Information technology</label>
+                    </br>
+                        <input type="checkbox" name="checkbox" id="Computer Architecture" value="Computer Architecture"/>
+                        <label for="checkbox">Computer Architecture</label></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="password">Password</label></td>
+                    <td WIDTH="50%"><input type="password" 
+                        name="password" 
+                        placeholder="Enter password"
+                         /></td>
+                   </tr>
+                </tbody>
+            </table>
+    
+         <button type="submit">Registered</button>
+
+
+        </form>
+
+
+           
+
+       
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title> Form </title>
+    </head>
+    <body style="background-color:#2e6e6e;">
+
+
+        
+
+
+        <form method="post">
+            <fieldset>
+                <legend style="background-color: #5f9ea0;">Personal Data</legend>
+              
+                <fieldset style="background-color: rgb(95,158,160)">
+                    <legend style="background-color: rgb(62,133,139);"><h2>your name:</h2> </legend>
+                    <div style="width: 100px; display: inline-block;">
+                        <label for="firstName">First Name</label>
+                    </div>   
+                    <div style="width: 100px; display: inline-block;">
+                        <input type="text" 
+                            name="firstName" 
+                            values="mohamed "
+                             placeholder="ex:Mariam"
+                             />
+                    </div>
+                    </br> 
+
+                    <div style="width: 100px; display: inline-block;">
+                    <label for="lastName">Second Name</label>
+                    </div>
+                    <div style="width: 100px; display: inline-block;">
+                    <input type="text" 
+                        name="lastName" 
+                        values="mohamed "
+                         placeholder="ex:Adel"
+                         />
+                    </div>     
+                    </br>
+                    </fieldset>   
+                    
+                    <table>
+                      <tbody>
+                   <tr>
+                    <td WIDTH="50%">  </br> <label for="phone">Your Phone:</label></td>
+                    <td WIDTH="50%">  </br> <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> <label for="email">Email</label></td>
+                    <td 
+                        WIDTH="50%"><input type="email" 
+                        name="email" 
+                        id="email"
+                        placeholder="it should contain @"
+                     />
+                    </td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="password">Password</label></td>
+                    <td WIDTH="50%"><input type="password" 
+                        name="password" 
+                         /></td>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"><label for="password">Re-Password</label></td>
+                    <td WIDTH="50%"><input type="password" 
+                        name="password"      
+                         />
+                        </br> 
+                        </td>
+                    </br> </br>
+                   </tr>
+                   <tr>
+                    <td WIDTH="50%"> </br>
+                         <input type="radio" name="gender" value="Male"/>
+                        <label for="Male">Male</label> 
+                    </br>
+                        <input type="radio" name="gender" value="Female"/>
+                        <label for="Female">Female</label> 
+                    </br>
+                    </br>
+                    </td>
+                   
+                   </tr>
+                   
+          
+                  
+                   <tr>
+                    <td WIDTH="50%">  
+                        <input type="checkbox" name="checkbox" id="Student" value="Student"/>
+                        <label for="checkbox">Student</label>
+                    </br>
+                        <input type="checkbox" name="checkbox" id="Graduate" value="Graduate"/>
+                        <label for="checkbox">Graduate</label>
+                    </br>
+                    </br>
+                   </td>
+                   </tr>
+                   
+                
+
+                   <tr>
+                    <td WIDTH="50%"> <label for="University">University:</label> </td>
+                    <td WIDTH="50%">
+                        <select id="University" name="University">
+                        <option selected disabled>choose University</option>
+                        <option value="hs">AUC</option>
+                       <option value="bach">GUC</option>
+                       <option value="master">Cairo University</option>
+                         </select>
+                        </br> 
+                    </td>
+                </br>
+                   </tr>
+                  
+                </tbody>
+            </table>
+    
+         <button type="submit" >Submit</button>
+
+         </fieldset>
+        </form>
+
+
+           
+
+       
+    </body>
+</html>

@@ -1,0 +1,24 @@
+* {
+
+    text-align: center;
+    
+    }
+    
+    /*Alternative CSS Centering Code with the "body" Selector*/
+    
+    body {
+    
+    text-align: center;
+    
+    }
+    
+    /* Styling */
+    
+    body {
+      margin: auto;
+      width: 640px; 
+      padding: 50px;
+      font-family: 'Lexend Deca', sans-serif; 
+        
+    }
+    
